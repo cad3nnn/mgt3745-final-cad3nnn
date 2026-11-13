@@ -39,7 +39,8 @@ npx wrangler dev         # only if the project has a worker/ backend
 | Scaffold audits | [docs/AUDIT.md](docs/AUDIT.md) |
 | Deployment notes | [docs/DEPLOY.md](docs/DEPLOY.md) |
 | Self-review with Homogenization Check | [docs/SELF-REVIEW.md](docs/SELF-REVIEW.md) |
+| Sourcing Audit 1 | [docs/SOURCING-AUDIT.md](docs/SOURCING-AUDIT.md) |
 
 ## AI Use
 
-<Which tools wrote what, in two or three sentences. The detail lives in docs/DDR-LOG.md; this paragraph orients a stranger.>
+Grok (xAI) assisted with drafting ADR-001, the Sourcing Audit, and the wrangler pin.

@@ -1,10 +1,11 @@
 # Deployment Notes
 
 ## Front end
-GitHub Pages from <branch and folder>. URL: <url>
+GitHub Pages serves `index.html` from the repository root (main branch).
 
-## Worker (if used)
-npx wrangler deploy from worker/. Secrets by name only: <GEMINI_API_KEY, ...>. AI Gateway id: <id>.
+## Worker
+All Worker and D1 commands now prefer the **local** binary installed by `npm install` (see `package.json` scripts).
 
-## From a clean checkout
-<Numbered steps a stranger could follow.>
+```bash
+npm run dev          # local development
+npm run deploy       # production deploy
